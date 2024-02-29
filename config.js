@@ -11,16 +11,16 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Kevin',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
-	greetingAfternoon: 'Good afternoon,',
-	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: 'Guten Morgen!',
+	greetingAfternoon: 'Guten Tag,',
+	greetingEvening: 'Guten Abend,',
+	greetingNight: 'Geh schlafen!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -36,7 +36,7 @@ const CONFIG = {
 	defaultLongitude: '-122.419',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: true,
